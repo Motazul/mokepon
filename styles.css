@@ -335,3 +335,13 @@ h2 {
     color: #ebe7e4;
     font-size: 1.2rem;
 }
+
+.cuadros-ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: center;
+}
+
+@media (max-width: 360px){
+    
+}
