@@ -1,4 +1,3 @@
-
 .container {
     color: #fff;
     text-shadow:
@@ -67,6 +66,7 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
+
 .mokepon-img {
     width: 80px;
     height: 110px;
@@ -92,7 +92,7 @@ h2 {
 }
 
 
-                
+
 #boton-mascota {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 20px;
@@ -117,16 +117,16 @@ h2 {
     margin: 50px;
 }
 
-.container-botones{
+.container-botones {
 
     font-family: 'Courier New', Courier, monospace;
     display: flex;
-    flex:1;
+    flex: 1;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.square-button{
+.square-button {
     width: 150px;
     height: 200px;
     background-color: rgba(69, 30, 160, 0.925);
@@ -227,7 +227,9 @@ h2 {
 
 
 
-#mensajeFinal {
+
+
+/* #mensajeFinal {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(228, 238, 249, .2);
     font-size: 2rem;
@@ -238,13 +240,36 @@ h2 {
     margin: 25px auto;
     border-radius: 15px;
 
+} */
+
+#mensajes {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+
 }
 
-.restart-boton-container{
+#resultado {
+    font-family: 'Courier New', Courier, monospace;
+    display: none;
+    height: 45px;
+    width: 280px;
+    background-color: rgb(154, 49, 168);
+    border-radius: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    border-color:black; 
+    border-width: 1px;
+    border-style: solid;
+}
+
+.restart-boton-container {
     display: flex;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
 }
+
 #boton-reiniciar {
     font-family: 'Courier New', Courier, monospace;
     align-items: center;
